@@ -1,0 +1,16 @@
+<!--pages/form_list/form_list.wxml-->
+<!-- <text>pages/form_list/form_list.wxml</text> -->
+<!--图片  -->
+<view class="header">
+  <image src="{{WIP+form_list.form_img}}"></image>
+  <text>{{form_list.form_name}}</text>
+</view>
+<view wx:for="{{form_list.song_list}}" wx:key="{{index}}">
+  <view class="cneter"  bindtap="song" id="{{item._id}}" data-item='{{form_list.song_list }}'>
+    <text> {{index+1}} </text>
+    <view>
+      <text class="song_name"> {{item.song_name}} </text>
+      <text class="singer">{{item.singer}}</text>
+    </view>
+  </view>
+</view>

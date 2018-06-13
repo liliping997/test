@@ -1,0 +1,36 @@
+/* pages/form_list/form_list.wxss */
+.header{
+  display:flex;
+}
+image{
+width:300rpx;
+height:300rpx;
+margin:5px;
+display:inline-block;
+}
+.header>text{
+  margin-top:100rpx;
+}
+.cneter{
+  display: flex;
+  padding:10rpx;
+  border-bottom: 1rpx solid gray;
+  margin:0 20rpx;
+}
+.cneter>view{
+  flex-grow: 2;
+}
+.cneter text{
+  display: block;
+  margin:0 10rpx;
+}
+.cneter>text{
+  margin-top:18rpx;
+}
+.song_name{
+  font-size:32rpx
+}
+.singer{
+  font-size: 24rpx;
+  color:grey;
+}

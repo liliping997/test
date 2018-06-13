@@ -1,0 +1,8 @@
+<!--pages/test/test.wxml-->
+<map id="myMap" show-location />
+<button type="primary" bindtap="getCenterLocation">获取位置</button>
+
+<camera id="mycamera"/>
+<button type="primary" bindtap="getcamera">摄像</button>
+
+ <!-- <camera bindtap="test"/> -->

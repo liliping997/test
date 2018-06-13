@@ -1,0 +1,12 @@
+<view class="flex">
+  <block wx:for="{{list}}" wx:key="{{index}}">
+    <view class="cneter" id="{{item._id}}" data-item="{{item}}" bindtap="formList"  >
+      <image src="{{WIP+item.form_img}}"></image>
+       <!-- <image src="{{'http://172.20.10.3:7777'+item.form_img}}"></image> -->
+      <text> {{item.form_name}} </text>
+    </view>
+  </block>
+</view>
+
+      
+      <view>{{list[0].form_name}}</view>

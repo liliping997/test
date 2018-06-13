@@ -1,0 +1,19 @@
+/* pages/musictest/music.wxss */
+.flex{
+   display: flex; 
+  flex-wrap: wrap;
+   padding:10rpx; 
+}
+ .cneter{
+   /* padding:10rpx;  */
+    width: 33%; 
+     margin-bottom: 10rpx; 
+} 
+text{
+   display: block; 
+  width:239rpx;  
+}
+image{
+    height:200rpx; 
+  width:239rpx;  
+}

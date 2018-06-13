@@ -1,0 +1,7 @@
+<view>
+<button bindtap='numup'>-</button>
+<label>{{count }}</label>
+<button bindtap='numadd'>+</button>
+<button bindtap='ajax'>后台直接访问</button>
+
+</view>

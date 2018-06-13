@@ -1,0 +1,14 @@
+<!--pages/song/song.wxml-->
+<!-- <text>pages/song/song.wxml</text>
+{{song}} -->
+
+
+<!-- <view wx:for="{{song}}" wx:key="{{index}}">
+<text>{{item.song_name}}</text>
+</view> -->
+
+<button bindtap="upSong">上一首</button>
+<button bindtap="downSong">下一首</button>
+
+
+
